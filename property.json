@@ -2,7 +2,7 @@
     "property": [
         {
             "type": "house",
-            "promo": false,
+            "promo": true,
             "id": 1,
             "name": "",
             "image": "./images/property/houses/house-1/property-1.jpg",
@@ -20,7 +20,7 @@
         },
         {
             "type": "house",
-            "promo": false,
+            "promo": true,
             "id": 2,
             "name": "",
             "image": "./images/property/houses/house-2/house-2.jpg",
@@ -41,7 +41,7 @@
         },
         {
             "type": "house",
-            "promo": false,
+            "promo": true,
             "id": 3,
             "name": "",
             "image": "./images/property/houses/house-3/house-3.jpg",
@@ -208,7 +208,7 @@
         },
         {
             "type": "flat",
-            "promo": true,
+            "promo": false,
             "id": 11,
             "name": "",
             "image": "./images/property/flats/flat-6/screenshot_1.jpg",
@@ -259,7 +259,7 @@
         },
         {
             "type": "vila",
-            "promo": true,
+            "promo": false,
             "id": 13,
             "name": "",
             "image": "./images/property/vila/vila-2/screenshot_1.jpg",
@@ -282,7 +282,7 @@
         },
         {
             "type": "vila",
-            "promo": true,
+            "promo": false,
             "id": 14,
             "name": "",
             "image": "./images/property/vila/vila-3/screenshot_1.jpg",

@@ -18,9 +18,11 @@ body{
 }
 
 .nav-bar{
-    background-color:var(--mainBlack);
+    background-image:linear-gradient(to bottom, #000000d2, rgba(0, 0, 0, 0));
     color: var(--mainWhite);
     text-align: center;
+    position: fixed;
+    width: 100%;
 
 }
 .logo{
@@ -370,9 +372,9 @@ footer p{
     }
     .popular-list{
 
-        display: grid;
-        grid-template-columns: repeat(auto-fit, 300px);
-        justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
         
     }
     .action-banner{
@@ -381,4 +383,10 @@ footer p{
     }
 }
 
+
+/* 
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+ */
 

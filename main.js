@@ -48,8 +48,8 @@ class Display {
             if (item.promo) {
                 result += `
                  <div class="property-card">
-                 <a href="#"  onclick="document.location=this.id+'.html';return false;"> 
-                  <img id=${item.id} src="${item.image}" alt=""> 
+                 <a href="#" id=${item.id}  onclick="document.location='propertyPages/'+this.id+'.html';return false;"> 
+                  <img  src="${item.image}" alt=""> 
                    </a>
                 <div class="property-card-information">
                     <p class="property-address">${item.address}</p>
